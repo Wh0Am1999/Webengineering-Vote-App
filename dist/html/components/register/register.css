@@ -1,0 +1,58 @@
+.register-form {
+  max-width: 350px;
+  margin: 3rem auto;
+  background: var(--color-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: var(--space-m);
+}
+
+.register-form form {
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: var(--space-m);
+  margin-bottom: 1.2em;
+}
+
+.register-form h2 {
+  margin-bottom: var(--space-s);
+}
+
+.register-form .error {
+  color: red;
+  margin: 0.5rem 0;
+}
+
+.register-form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.register-form input,
+.register-form textarea {
+  width: 100%;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-xs);
+  font-size: 1rem;
+  transition: box-shadow 0.15s, border 0.15s;
+  background: #fff;
+  margin-top: 0.25rem;
+  box-sizing: border-box;
+}
+
+/* Hover- und Fokus-Effekt für Eingabeelemente */
+.register-form input:hover,
+.register-form textarea:hover,
+.register-form input:focus,
+.register-form textarea:focus {
+  box-shadow: 0 0 0 2px var(--color-primary, #2563eb);
+  border-color: var(--color-primary, #2563eb);
+  outline: none;
+}
+
+.register-form button[type="submit"] {
+  margin-top: 1.2em;
+}

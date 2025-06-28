@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="./html/components/register/register.css" />
+
+<section class="register-form">
+  <h2>Registrieren</h2>
+  <form id="register-form" class="register-form-inner">
+    <label>
+      Profilbild-URL (optional):
+      <input type="url" name="avatarUrl" />
+    </label>
+    <label>
+      Benutzername:
+      <input type="text" name="username" required />
+    </label>
+    <label>
+      E-Mail:
+      <input type="email" name="email" required />
+    </label>
+    <label>
+      Passwort:
+      <input type="password" name="password" required />
+    </label>
+    <button type="submit" class="btn btn-primary">Registrieren</button>
+    <div id="register-error" class="error"></div>
+  </form>
+  <a href="#/login">Bereits ein Account? Zum Login!</a>
+</section>

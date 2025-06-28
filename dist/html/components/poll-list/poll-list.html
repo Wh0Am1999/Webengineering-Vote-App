@@ -1,0 +1,31 @@
+<section class="poll-list">
+  <div class="polls-wrapper">
+    <h2>Abstimmungen</h2>
+    <div class="sort-bar">
+      <label for="sort-select"><b>Sortieren nach:</b></label>
+      <select id="sort-select">
+        <option value="date-desc">Datum (neueste zuerst)</option>
+        <option value="date-asc">Datum (älteste zuerst)</option>
+        <option value="title-asc">Titel (A–Z)</option>
+        <option value="title-desc">Titel (Z–A)</option>
+      </select>
+    </div>
+    <div class="poll-list-cards" id="poll-list-cards">
+      <!-- Beispiel einer Poll-Card (normalerweise per JS generiert) -->
+      <div class="poll-card">
+        <div class="poll-title">test2</div>
+        <div class="poll-meta">
+          <span class="poll-creator">maxmuster</span>
+          <span class="poll-date">23.5.2025</span>
+        </div>
+        <div class="poll-card-actions">
+          <button class="btn btn-primary poll-view-btn">
+            <i class="fa-solid fa-eye btn-icon"></i>
+            <span class="btn-text">Anzeigen</span>
+          </button>
+        </div>
+      </div>
+      <!-- Weitere Poll-Cards werden hier per JS eingefügt -->
+    </div>
+  </div>
+</section>

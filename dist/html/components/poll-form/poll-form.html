@@ -1,0 +1,38 @@
+<section class="poll-form">
+  <h2>Neue Abstimmung erstellen</h2>
+  <form id="new-poll-form">
+    <label>
+      Titel:
+      <input type="text" name="title" required />
+    </label>
+    <label>
+      Beschreibung:
+      <textarea name="description"></textarea>
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" name="multiple" id="multiple-choice" />
+      Mehrfachantworten erlauben
+    </label>
+    <label>
+      Antwortoptionen:
+      <div id="option-list">
+        <!-- Dynamisch: mindestens zwei Input-Felder für Optionen -->
+      </div>
+    </label>
+
+    <!-- Fehlerbox HIER eingefügt -->
+    <div id="pollform-error" class="error-box"></div>
+
+    <!-- Buttons -->
+    <div class="poll-form-btn-row">
+      <button type="button" id="add-option-btn" class="btn btn-secondary">
+        <i class="fa-solid fa-plus btn-icon"></i>
+        <span class="btn-text">Option hinzufügen</span>
+      </button>
+      <button type="submit" class="btn btn-primary">
+        <i class="fa-solid fa-paper-plane btn-icon"></i>
+        <span class="btn-text">Abstimmung erstellen</span>
+      </button>
+    </div>
+  </form>
+</section>

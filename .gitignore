@@ -1,0 +1,14 @@
+node_modules/
+dist/bundle.js
+dist/*.map
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+.env
+users.json
+polls.json

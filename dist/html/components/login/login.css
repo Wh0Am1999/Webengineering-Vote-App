@@ -1,0 +1,22 @@
+.login-form {
+  max-width: 350px;
+  margin: 3rem auto;
+  background: var(--color-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: var(--space-m);
+}
+.login-form h2 {
+  margin-bottom: var(--space-s);
+}
+.login-form .error {
+  color: red;
+  margin: 0.5rem 0;
+}
+.login-form label {
+  display: block;
+  margin-bottom: 1rem;
+}
+.login-form input {
+  width: 100%;
+}

@@ -1,0 +1,33 @@
+.home-welcome {
+  padding: 1.1rem;
+}
+
+.home-welcome h2 {
+  margin-bottom: 1.5em;
+  font-size: 2rem;
+}
+
+.home-welcome p {
+  font-size: 1.1rem;
+}
+
+.home-welcome a {
+  color: var(--color-primary);
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 0 0.5em;
+}
+
+/* Desktop */
+@media (min-width: 900px) {
+  .home-welcome {
+    padding: 1.1rem;
+    max-width: 540px;
+    margin: 4rem auto 2rem auto;
+    background: var(--color-card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 2.2rem;
+    text-align: center;
+  }
+}
