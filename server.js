@@ -10,7 +10,7 @@ const jwt = require("jsonwebtoken");
 const rateLimit = require("express-rate-limit");
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const DATA_FILE = path.join(__dirname, "polls.json");
 const USERS_FILE = path.join(__dirname, "users.json");
