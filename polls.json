@@ -1,0 +1,196 @@
+[
+  {
+    "id": "mbe2jsz4.bi",
+    "title": "Mo oder Do",
+    "description": "Abstimmung Montag oder Donnerstag",
+    "createdAt": "2025-06-01T19:43:45.520Z",
+    "creator": "ManuK",
+    "options": [
+      {
+        "id": "0",
+        "text": "Mo",
+        "votes": 1
+      },
+      {
+        "id": "1",
+        "text": "Do",
+        "votes": 4
+      }
+    ],
+    "multiple": false,
+    "votesByUser": {
+      "ManuK": "0",
+      "testertest": "1",
+      "maxmuster": "1",
+      "LauraStar": "1",
+      "TommyKocher": "1"
+    }
+  },
+  {
+    "id": "mbf9lu9b.y2",
+    "title": "Sommerferien",
+    "description": "Datumsabstimmung für die anstehenden Sommerferien 2025",
+    "createdAt": "2025-06-02T15:49:03.983Z",
+    "creator": "ManuK",
+    "options": [
+      {
+        "id": "0",
+        "text": "30.06.2025 - 06.07.2025",
+        "votes": 2
+      },
+      {
+        "id": "1",
+        "text": "07.07.2025 - 13.07.2025",
+        "votes": 3
+      },
+      {
+        "id": "2",
+        "text": "14.07.2025 - 20.07.2025",
+        "votes": 1
+      },
+      {
+        "id": "3",
+        "text": "21.07.2025 - 28.07.2025",
+        "votes": 2
+      }
+    ],
+    "multiple": true,
+    "votesByUser": {
+      "ManuK": [
+        "0",
+        "3"
+      ],
+      "LauraStar": [
+        "1",
+        "2",
+        "3"
+      ],
+      "TommyKocher": [
+        "1"
+      ],
+      "DerBauer": [
+        "0",
+        "1"
+      ]
+    }
+  },
+  {
+    "id": "mbfb3niy.ko",
+    "title": "Die nächste Runde geht auf...",
+    "description": "Wer soll die nächste Runde bezahlen?",
+    "createdAt": "2025-06-02T16:30:54.682Z",
+    "creator": "TommyKocher",
+    "options": [
+      {
+        "id": "0",
+        "text": "Manuel",
+        "votes": 3
+      },
+      {
+        "id": "1",
+        "text": "Tom",
+        "votes": 0
+      },
+      {
+        "id": "2",
+        "text": "Felix",
+        "votes": 0
+      },
+      {
+        "id": "3",
+        "text": "Laura",
+        "votes": 1
+      }
+    ],
+    "multiple": false,
+    "votesByUser": {
+      "LauraStar": "0",
+      "ManuK": "3",
+      "TommyKocher": "0",
+      "DerBauer": "0"
+    }
+  },
+  {
+    "id": "mbfb8nec.kk",
+    "title": "Betriebsausflug",
+    "description": "Wo soll der Betriebsausflug hingehen? Bitte bis Ende Juli abstimmen!",
+    "createdAt": "2025-06-02T16:34:47.796Z",
+    "creator": "DerBauer",
+    "options": [
+      {
+        "id": "0",
+        "text": "Besichtigung der Brauerei Lägerebräu",
+        "votes": 3
+      },
+      {
+        "id": "1",
+        "text": "Gokart Rennen in Roggwil",
+        "votes": 0
+      },
+      {
+        "id": "2",
+        "text": "Alpaka Trekking in Möhlin",
+        "votes": 1
+      }
+    ],
+    "multiple": false,
+    "votesByUser": {
+      "LauraStar": "2",
+      "ManuK": "0",
+      "TommyKocher": "0",
+      "DerBauer": "0"
+    }
+  },
+  {
+    "id": "mbfbj11f.68n",
+    "title": "Veni Vidi Violini - Ich kam, ich sah, ich vergeigte",
+    "description": "Welche Instrumente würdest du gerne spielen können?",
+    "createdAt": "2025-06-02T16:42:52.035Z",
+    "creator": "LauraStar",
+    "options": [
+      {
+        "id": "0",
+        "text": "Geige",
+        "votes": 1
+      },
+      {
+        "id": "1",
+        "text": "Gitarre",
+        "votes": 2
+      },
+      {
+        "id": "2",
+        "text": "Piano",
+        "votes": 1
+      },
+      {
+        "id": "3",
+        "text": "Trompete",
+        "votes": 1
+      },
+      {
+        "id": "4",
+        "text": "Ukulele",
+        "votes": 2
+      }
+    ],
+    "multiple": true,
+    "votesByUser": {
+      "LauraStar": [
+        "0",
+        "1",
+        "4"
+      ],
+      "ManuK": [
+        "2"
+      ],
+      "TommyKocher": [
+        "1",
+        "4"
+      ],
+      "DerBauer": [
+        "3"
+      ]
+    }
+  }
+]

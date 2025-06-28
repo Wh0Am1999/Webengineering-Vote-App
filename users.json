@@ -1,0 +1,33 @@
+[
+  {
+    "username": "ManuK",
+    "email": "manuel.keller@keller.com",
+    "password": "$2b$08$og/S6CpiHLdddsx2oclsqel458h/bz6.TTpfqqzf2vYgPPdssBtLe"
+  },
+  {
+    "username": "TommyKocher",
+    "email": "tom.hoffmann@hoffmann.com",
+    "password": "$2b$08$Ivj//nhhxtSF.rmf.8gmx.b1wAIXIIK0SOsUZwCkIcSG1siN7OKY6"
+  },
+  {
+    "username": "DerBauer",
+    "email": "felix.bauer@bauer.com",
+    "password": "$2b$08$buROOVXkASxK5x9eoXZK3ew6Facs4ubhb0LotZF3f.xvY2tAfOBbe"
+  },
+  {
+    "username": "LauraStar",
+    "email": "laura.stern@stern.com",
+    "password": "$2b$08$C4kpyst5GqLHHD2GmLCbNuegS5vHApoJ3Z4n/TAYgahPqvkvwV8km"
+  },
+  {
+    "username": "Tester2",
+    "email": "tester2@example.com",
+    "password": "$2b$08$tHDlVOspb9Kn4jegm/9Qr.jInbYsYSpGrMS.NLsSmTAPNhWUsqNq."
+  },
+  {
+    "username": "Adiischdoof",
+    "email": "adi@ischdoof.ch",
+    "password": "$2b$08$OvI0GEbRVZ/hm2WkkMx3tuYy065kildSkP4ACF.AIEDrzV24gYfT.",
+    "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_UlTUcOR1rNfxycfc3w_YxlEr38fKwQ9Bog&s"
+  }
+]
